@@ -24,5 +24,8 @@ second is the middleware file name.It may be a servlet,jsp,spring etc.
 -----------------------------------------------------------------------------------------------------
 file:///C:/Users/sandip/Desktop/java%207.30%20to%209PM/second?t1=sandip&t2=2022-03-01&t3=7766554433&t4=sandip%40gmail.com&t5=bangalore
 ------------------------------------------------------------
+placeholder="enter your name" :- It is used to give suggestion to the user.
+required :- It displays a popup message if user donot enter anything inside the text field.
+
 
 
