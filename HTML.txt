@@ -1,0 +1,28 @@
+HTML :- hyper text markup language.
+1)It is used for web development.
+2)It is user friendly and not case-sensitive.
+3)We can design tables,forms.we can attach images,audio,vedio to our pages.
+4)We have session storage and local storage available to store data temporarily or permanently.
+5)We can design graphs using html5.
+6)we have html tags for different elements.
+------------------------------------------------------
+<h1> to <h6> :- This tag is used for heading.It will be in bold letters.
+<center><left><right> :- This tag is used to align the text.
+<table>:- This tag is used to create table.
+<th>:- This is table head.
+<tr>:- This is table row.
+<td>:- This is table table division.
+<form>:- This tag is used to connect the frontend to the middle ware.
+<html>:-This is the root tag for html.
+<body>:- This is used to create body of the html page.
+<title>:- This is used to create title of the page.
+
+ -----------------------------------------------------------------------------
+file:///C:/Users/sandip/Desktop/java%207.30%20to%209PM/second?t1=&t2=&t3=&t4=&t5=
+t1,t2,t3,t4,t5 :- These are the text fields names where the data will be binded.
+second is the middleware file name.It may be a servlet,jsp,spring etc.
+-----------------------------------------------------------------------------------------------------
+file:///C:/Users/sandip/Desktop/java%207.30%20to%209PM/second?t1=sandip&t2=2022-03-01&t3=7766554433&t4=sandip%40gmail.com&t5=bangalore
+------------------------------------------------------------
+
+
