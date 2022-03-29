@@ -26,6 +26,21 @@ file:///C:/Users/sandip/Desktop/java%207.30%20to%209PM/second?t1=sandip&t2=2022-
 ------------------------------------------------------------
 placeholder="enter your name" :- It is used to give suggestion to the user.
 required :- It displays a popup message if user donot enter anything inside the text field.
-
+-------------------------------------------------------------
+file:///C:/Users/sandip/Desktop/java%207.30%20to%209PM/second?t1=sandip&t2=2022-02-28&t3=07760213015&t4=sandip%40gmail.com&t5=bangalore&t6=male
+---------------------------------------------
+Attributes of input type
+---------------------------------------
+input type=text
+input type=date
+input type=email
+input type=password
+input type=number
+input type=radio (we can select any one)
+input type=checkbox (we can select multiple box)
+----------------------------------------------------------
+file:///C:/Users/sandip/Desktop/java%207.30%20to%209PM/second?t1=sandip&t2=2022-03-08&t3=07760213015&t4=sandip%40gmail.com&t5=bangalore&t6=male&t7=cricket&t11=BCA
+-----------------------------------------------
+file:///C:/Users/sandip/Desktop/java%207.30%20to%209PM/second?t1=sandip&t2=2022-03-08&t3=07760213015&t4=sandip%40gmail.com&t5=bangalore&t6=male&t7=cricket&t11=Mtech
 
 
