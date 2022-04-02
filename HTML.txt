@@ -16,7 +16,10 @@ HTML :- hyper text markup language.
 <html>:-This is the root tag for html.
 <body>:- This is used to create body of the html page.
 <title>:- This is used to create title of the page.
-
+<font color=white> :- To change the font color to white.
+<body bgcolor=black> :- To change the background color to black.
+<audio src="abc.mp3" controls="autoplay"/>
+<video src="def.mp4" controls="loop" height=220 width=250/>
  -----------------------------------------------------------------------------
 file:///C:/Users/sandip/Desktop/java%207.30%20to%209PM/second?t1=&t2=&t3=&t4=&t5=
 t1,t2,t3,t4,t5 :- These are the text fields names where the data will be binded.
@@ -40,7 +43,41 @@ input type=radio (we can select any one)
 input type=checkbox (we can select multiple box)
 ----------------------------------------------------------
 file:///C:/Users/sandip/Desktop/java%207.30%20to%209PM/second?t1=sandip&t2=2022-03-08&t3=07760213015&t4=sandip%40gmail.com&t5=bangalore&t6=male&t7=cricket&t11=BCA
------------------------------------------------
+---------------------------------------------------------------------------------------------------
 file:///C:/Users/sandip/Desktop/java%207.30%20to%209PM/second?t1=sandip&t2=2022-03-08&t3=07760213015&t4=sandip%40gmail.com&t5=bangalore&t6=male&t7=cricket&t11=Mtech
+---------------------------------------------------------------------------------------------------------
+To add google map to the contact page.
+
+step 1:-https://www.google.com/maps
+
+step 2:-search for the location
+
+step 3:-share
+
+step 4:-embed a map 
+
+step 5:- copy html and paste iframe on your html page.
+---------------------------------------------------------------------------------------------------
+To add google form to our html page
+---------------------------------------------------------
+1)step 1:-https://google.com/forms
+
+2)step 2:-Blank
+
+3)step 3:- fill in the form
+
+4)step 4:- send
+
+5)step 5:- <> ---select it and copy the embed html link and paste into your html page.
+
+6)step 6:- response 
+
+7)step 7:- click on green + and create an excel sheet.
+-------------------------------------------------------------------------------------------
+
+
+
+
+
 
 
