@@ -74,6 +74,25 @@ To add google form to our html page
 
 7)step 7:- click on green + and create an excel sheet.
 -------------------------------------------------------------------------------------------
+marquee:- It is used to scroll the text .
+--------------------------------------------------------------
+we are working on HTML5 
+It is a combination of html,css and javascript,JQuery
+---------------------------------------------------------------------------
+Assignment-1
+-------------------------
+create a college website.put images of college in the website.
+------------------------
+registration page
+login page
+contact us
+student admission form
+time table
+---------------------------------------------------------------
+
+
+
+
 
 
 
