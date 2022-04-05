@@ -1,0 +1,18 @@
+CSS:- It is use to style the html page.
+we have 3 types of css.
+1)internal css
+2)external css
+3)inline css
+-----------------------------------------------------------------------------
+you have created 20pages in your project .The client want the font and background color to change in every page.
+we can use either external css or internal css to make the change.
+-------------------------------------------------------------------------------
+h1
+{
+background-color:red;
+}
+
+<!-- h1 is a selector.
+background-color:yellow; is declaration.
+background is property.
+yellow is the value .-->
