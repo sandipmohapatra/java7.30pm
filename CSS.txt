@@ -17,3 +17,74 @@ background-color:red;
 background-color:yellow; is declaration.
 background is property.
 yellow is the value .-->
+-------------------------------------------------------------------
+css margin :-
+The css margin properties are used to generate space around the element.
+The margin properties set the size of white space outside the border.
+
+margin-top
+margin-right
+margin-bottom
+margin-left
+--------------------------------------------------------
+ <div>
+{
+margin-top:100px;
+margin-right:120px;
+margin-bottom:100px;
+margin-left:100px;
+}
+------------------------------------------------------------
+<div>
+{
+margin:100px 120px 100px 100px;
+}
+This indicates top margin=100px,right magin=120px,bottom margin=100px,left margin=100px.
+----------------------------------------------------------------------------------------
+<div>
+{
+margin:100px 120px ;
+}
+This indicates top and bottom margin=100px,right and left magin=120px.
+
+------------------------------------------------------------------------------------------------------
+<div>
+{
+margin:100px ;
+}
+This indicates top and bottom right and left margin=100px.
+----------------------------------------------------------------------------------
+css padding
+--------------------------
+The css padding properties are used to generate space around the content.
+
+padding-top
+padding-right
+padding-bottom
+padding-left
+---------------------------------------------------
+div
+{
+padding-top:50px;
+padding-right:100px;
+padding-bottom:100px;
+padding-left:20px;
+}
+-------------------------------------------------------
+
+<div>
+{
+margin:100px 120px 100px 100px;
+padding:100px 120px 100px 100px;
+}
+First line
+This indicates top margin=100px,right magin=120px,bottom margin=100px,left margin=100px.
+second line
+This indicates top padding=100px,right padding=120px,bottom padding=100px,left padding=100px.
+----------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
