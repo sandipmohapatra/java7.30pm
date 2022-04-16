@@ -1,0 +1,50 @@
+1)we have to install node.js
+2)On that we can install angular.
+3)node -v
+4)npm install -g @angular/cli
+5)ng new angular10
+---------------------------------------
+6)install visualstudio code
+7)cd angular10
+8)cd src
+9)ng serve------always open when running angular
+10)open VS code
+11)select app folder 
+---------------------------------------------------------
+12)we have 3 files
+app.component.ts  --------------to combine html and css
+app.component.html
+app.component.css
+-------------------------------------------------
+app.component.html
+--------------------------------
+<h1>Welcome to Angular-10 at BePractical</h1>
+<table>
+<tr><td>Enter your name</td><td><input type=text name=t1 size=20></td></tr>
+<tr><td>Enter your email</td><td><input type=text name=t2 size=20></td></tr>
+<tr><td>Enter your address</td><td><input type=text name=t3 size=20></td></tr>
+<tr><td>Enter your phoneno</td><td><input type=text name=t3 size=20></td></tr>
+
+<tr><td></td><td><input type=Button value="submit"></td></tr>
+
+</table>
+------------------------------------------------------------------------------
+app.component.css
+---------------------------------------
+h1{
+color:red;
+}
+-----------------------------------------------------
+app.component.ts
+-----------------------------
+import { Component } from '@angular/core';
+
+@Component({
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.css']
+})
+export class AppComponent {
+  title = 'angular10';
+}
+----------------------------------------------------------------------------------
