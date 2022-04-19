@@ -1,0 +1,57 @@
+Java
+---------------
+1)java is object oriented programming language.
+2)Java is simpler than c and c++ as we don' t have pointer concept,multiple inheritance,operator overloading.
+3)java supports multi-threading or multi-tasking.
+4)we can develop web-application,network application,standalone application and also mobile application.
+5)In java we use interface to perform multiple inheritance.
+6)In java we have constructor but no destructor .There is automatic garbage clearance.
+7)java is secure language.We have 4 access specifier private,public ,protected,default.
+8)The file name and the class name should be same in java.
+-----------------------------------------------------------
+A class contains variables and methods .It is a collection of variables and methods.
+An object is a reference pointer to the class.we need object to access them variables and methods of the class.
+------------------------------------------------------------
+Data types
+----------------------
+1)byte - 1 byte
+2)short - 2bytes
+3)int - 4bytes
+4)long -8bytes
+5)float - 4 bytes
+6)double - 8bytes
+7)boolean - 1 bit
+8)char - 2bytes
+------------------------------------
+derived datatype
+1)class
+2)String
+3)array of characters,array of numbers.
+--------------------------------------------------------------
+example-1
+------------------
+class First 
+{
+public static void main(String[] args) 
+{
+	byte a=10;
+	short b=20;
+	int c=30;
+	long d=40;
+	float e=5.6f;
+	double f=66.4;
+	char g='a';
+	String h="apple";
+	System.out.println("The value of a is "+a);
+	System.out.println("The value of b is "+b);
+	System.out.println("The value of c is "+c);
+	System.out.println("The value of d is "+d);
+	System.out.println("The value of e is "+e);
+	System.out.println("The value of f is "+f);
+	System.out.println("The value of g is "+g);
+	System.out.println("The value of h is "+h);
+	
+}
+}
+----------------------------------------------------------
+
