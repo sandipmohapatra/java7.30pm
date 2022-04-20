@@ -55,3 +55,82 @@ public static void main(String[] args)
 }
 ----------------------------------------------------------
 
+System.out.println("The value of a is "+a);
+
+This is for output.
+
+System.in
+
+This is for input.
+---------------------------------------------------
+System is predefined class.
+out is an predefined object.
+in is an predefined object.
+println() :- is a predifined method.
+------------------------------------------------------------------------
+example 2
+----------------
+class First 
+{
+public static void main(String[] args) 
+{
+	int a=10,b=20,c=30,d=40,e=50;
+	int sum=a+b+c+d+e;
+	int avg=sum/5;
+	System.out.println("The sum is "+sum);
+	System.out.println("The avg is "+avg);
+	}
+}
+-----------------------------------------------------------
+to take input from keyboard
+-----------------------------------------------
+example-3
+---------------
+import java.lang.*; <---packages
+import java.util.*;
+class First 
+{
+public static void main(String[] args) 
+{
+	Scanner ob=new Scanner(System.in);
+	System.out.println("Enter 2 nos");
+	int a=ob.nextInt();
+	int b=ob.nextInt();
+	int sum=a+b;
+	System.out.println("The sum is "+sum);
+	}
+}
+-------------------------------------------------------------------------------
+import java.lang.*;
+import java.util.*;
+class First 
+{
+public static void main(String[] args) 
+{
+	Scanner ob=new Scanner(System.in);
+	System.out.println("Enter 2 nos");
+	float a=ob.nextFloat();
+	float b=ob.nextFloat();
+	float sum=a+b;
+	System.out.println("The sum is "+sum);
+	}
+}
+-----------------------------------------------------------------
+nextInt() :- predefined method for taking integer as input.
+nextFloat():- predefined method for taking float as input.
+Scanner ob=new Scanner(System.in);
+This is a class beloging to util package.to take input from the keyboard.
+------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
