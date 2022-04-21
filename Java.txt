@@ -59,9 +59,7 @@ System.out.println("The value of a is "+a);
 
 This is for output.
 
-System.in
-
-This is for input.
+System.in:- This is for input.
 ---------------------------------------------------
 System is predefined class.
 out is an predefined object.
@@ -87,7 +85,7 @@ to take input from keyboard
 example-3
 ---------------
 import java.lang.*; <---packages
-import java.util.*;
+import java.util.*;<--packages
 class First 
 {
 public static void main(String[] args) 
@@ -121,11 +119,79 @@ nextFloat():- predefined method for taking float as input.
 Scanner ob=new Scanner(System.in);
 This is a class beloging to util package.to take input from the keyboard.
 ------------------------------------------------------------------------------------------------
+package 
+	|
+	|
+classes
+	|
+methods()
 
-
-
-
-
+--------------------------------------------------
+if-else
+---------------
+if-else if-else
+--------------------------
+if-else if-else if-else
+------------------------------------
+case and switch
+----------------------------------
+example-1
+-----------------
+package org.sandip;
+import java.util.*;
+public class Second
+{
+public static void main(String[] args) 
+{
+Scanner ob=new Scanner(System.in);
+System.out.println("enter 2 nos");
+int a=ob.nextInt();
+int b=ob.nextInt();
+if(a>b)
+	System.out.println("the greatest is "+a);
+else
+	System.out.println("the greatest is "+b);
+}
+}
+-------------------------------------------------------------
+package org.sandip;
+import java.util.*;
+public class Second
+{
+public static void main(String[] args) 
+{
+Scanner ob=new Scanner(System.in);
+System.out.println("enter 3 nos");
+int a=ob.nextInt();
+int b=ob.nextInt();
+int c=ob.nextInt();
+if(a>b && a>c)
+	System.out.println("the greatest is "+a);
+else if(b>a && b>c)
+	System.out.println("the greatest is "+b);
+else
+	System.out.println("the greatest is "+c);
+}
+}
+-------------------------------------------------------------------------------------------
+package org.sandip;
+import java.util.*;
+public class Second
+{
+public static void main(String[] args) 
+{
+Scanner ob=new Scanner(System.in);
+System.out.println("enter a nos");
+int a=ob.nextInt();
+if(a%2==0)
+	System.out.println("the no is even ");
+else
+	System.out.println("the no is odd ");
+}
+}
+--------------------------------------------------------------
+wap to enter your age and find if you are eligible to vote.
+------------------------------------------------------
 
 
 
