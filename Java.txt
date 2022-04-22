@@ -54,7 +54,7 @@ public static void main(String[] args)
 }
 }
 ----------------------------------------------------------
-
+Scanner is class to take input from the keyboard.
 System.out.println("The value of a is "+a);
 
 This is for output.
@@ -243,7 +243,97 @@ else
 }
 }
 -----------------------------------------------------------
+1)next():- It is a pre-defined function to take string as input.
+2)nextInt():- It is a pre-defined function to take integer as input.
+3)nextFloat():- It is a pre-defined function to take float as input.
+--------------------------------------------------------------------------------
+case and switch
+---------------------------
+we will enter a value for switch and the control will jump to the particular case.exceute the program and then terminate.
 
+switch(value)
+{
+case 1:
+break;
+case 2:
+break;
+-----
+-------
+default:
+}
+------------------------------------------------------------------------------------
+example-1
+------------------
+package org.sandip;
+import java.util.*;
+public class CaseSwitch 
+{
+public static void main(String[] args) 
+{
+	Scanner ob=new Scanner(System.in);//to take input from keyboard
+	System.out.println("Enter a no");
+	int a=ob.nextInt();
+	switch(a)
+	{
+	case 1:System.out.println("one");
+	break;
+	case 2:System.out.println("two");
+	break;
+	case 3:System.out.println("three");
+	break;
+	case 4:System.out.println("four");
+	break;
+	case 5:System.out.println("five");
+	break;
+	default:System.out.println("wrong input");
+	}
+}
+}
+----------------------------------------------------------------------
+example-2
+-----------------
+package org.sandip;
+import java.util.*;
+public class CaseSwitch 
+{
+public static void main(String[] args) 
+{
+	Scanner ob=new Scanner(System.in);//to take input from keyboard
+	System.out.println("Enter a no(1.add,2.sub,3.mul,4.div)");
+	int a=ob.nextInt();
+	switch(a)
+	{
+	case 1:
+		System.out.println("enter 2 nos");
+		int x=ob.nextInt();
+		int y=ob.nextInt();
+		int sum=x+y;
+		System.out.println("The sum is "+sum);
+	break;
+	case 2:System.out.println("enter 2 nos");
+	x=ob.nextInt();
+	y=ob.nextInt();
+	int sub=x-y;
+	System.out.println("The sub is "+sub);
+	break;
+	case 3:System.out.println("enter 2 nos");
+	x=ob.nextInt();
+	y=ob.nextInt();
+	int mul=x*y;
+	System.out.println("The mul is "+mul);
+	break;
+	case 4:System.out.println("enter 2 nos");
+	x=ob.nextInt();
+	y=ob.nextInt();
+	int div=x/y;
+	System.out.println("The div is "+div);
+	break;
+	
+	default:System.out.println("wrong input");
+	}
+}
+}
+----------------------------------------------------------------
 
 
 
