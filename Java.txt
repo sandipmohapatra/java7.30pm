@@ -333,7 +333,13 @@ public static void main(String[] args)
 	}
 }
 }
-----------------------------------------------------------------
+-----------------------------Assignment-1-----------------------------------
+wap to create a bank project.use case and switch.
+bank --enter accno,name,balance
+1.withdraw and 2.deposite shoulb be your choice in case and switch.
+check if withdraw less than balance your can withdraw.
+Display accno,name,balance,final balance.
+----------------------------------------------------------------------------------------------------
 
 
 
