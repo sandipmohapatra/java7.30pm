@@ -379,7 +379,46 @@ default:
 }
 }
 
+---------------------------------------------------------------------------
+class and object
+----------------------------
+class contains variables and methods.
 
+variables:- rollno,name,address
+methods :- input(),display();
+-------------------------------------------------------------
+Object :- with objects we can access variables and methods of the class.
+-------------------------------------------------------------
+example-1
+---------------
+package org.sandip;
+import java.util.*;
+public class Student 
+{
+int rollno;   // variables
+String name,address;
+void input()
+{
+	Scanner ob=new Scanner(System.in);
+	System.out.println("Enter rollno,name,address");
+	rollno=ob.nextInt();
+	name=ob.next();
+	address=ob.next();
+}
+void display()
+{
+	System.out.println("the rollno is "+rollno);
+	System.out.println("the name is "+name);
+	System.out.println("the address is "+address);
+	}
+public static void main(String[] args) 
+{
+	Student obj=new Student();//for the class we are creating object ob.
+	obj.input();
+	obj.display();
+}
+}
+------------------------------------------------------------------------
 
 
 
