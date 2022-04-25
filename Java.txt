@@ -335,11 +335,57 @@ public static void main(String[] args)
 }
 -----------------------------Assignment-1-----------------------------------
 wap to create a bank project.use case and switch.
-bank --enter accno,name,balance
-1.withdraw and 2.deposite shoulb be your choice in case and switch.
+bank --enter accno,name,balance=5000
+1.withdraw and 2.deposite should be your choice in case and switch.
 check if withdraw less than balance your can withdraw.
 Display accno,name,balance,final balance.
 ----------------------------------------------------------------------------------------------------
+import java.util.*;
+public class Second
+{
+public static void main(String[] args) 
+{
+Scanner ob=new Scanner(System.in);
+System.out.println("Enter accno,name,balance");
+int accno=ob.nextInt();
+String name=ob.next();
+float bal=ob.nextFloat();
+System.out.println("Enter 1.withdraw 2.deposite");
+int choice=ob.nextInt();
+switch(choice)
+{
+case 1:
+	System.out.println("Enter the amount you want to withdraw");
+	float withd=ob.nextFloat();
+	if(bal>withd)
+	{
+		bal=bal-withd;
+		System.out.println("the final balance is "+bal);
+	}
+	else
+	{
+		System.out.println("sorry balance is less");
+	}
+	break;
+case 2:
+	System.out.println("Enter the amount you want to deposite");
+	float dip=ob.nextFloat();
+	bal=bal+dip;
+	System.out.println("the final balance is "+bal);
+	break;
+default:
+	System.out.println("wrong input");
+}
+}
+}
+
+
+
+
+
+
+
+
 
 
 
