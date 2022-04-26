@@ -501,6 +501,9 @@ public static void main(String[] args) {
 }
 }
 -------------------------------------------------------------------------------
+create a bank class having accno,name,balance
+take input and display it.
+-----------------------------------------------------------------------------------
 
 
 
