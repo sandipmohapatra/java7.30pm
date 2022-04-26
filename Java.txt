@@ -419,7 +419,15 @@ public static void main(String[] args)
 }
 }
 ------------------------------------------------------------------------
+syntax for creating an object
+------------------------------------------------
+	Student obj=new Student();
+Student is a class.obj is an object.
+new is a keyword to create memory block.
+Student() :- it is a default constructor .
+without Object a class is meaning less we cannot access the class.
 
+1)class a object factory.
 
 
 
