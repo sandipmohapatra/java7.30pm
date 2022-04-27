@@ -504,6 +504,23 @@ public static void main(String[] args) {
 create a bank class having accno,name,balance
 take input and display it.
 -----------------------------------------------------------------------------------
+java is secured Language.we have 4 access specifier 1)private 2)public 3)protected 4)default
+Access specifier
+----------------------------
+1)private:- if we declare variables and methods as private we can access it within the class only.
+2)public:- if we declare variables and methods as public we can access it within the class ,outside the class and outside the package.
+3)protected:- if we declare variables and methods as protected we can access it within the class and in the child class.
+4)default:- if we declare variables and methods as default we can access it within the class ,outside the class but not outside the package.
+--------------------------------------------------------------------
+step 1:java program we have to save by .java ext
+step 2:compile it
+step 3:JVM(java virtual machine) convert the java program to byte code with .class extention
+step 4:The byte code  can run on any os
+step 5:so java is called platform independent.
+--------------------------------------------------------------------------------------------------
+
+
+
 
 
 
