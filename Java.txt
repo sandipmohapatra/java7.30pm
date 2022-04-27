@@ -518,7 +518,10 @@ step 3:JVM(java virtual machine) convert the java program to byte code with .cla
 step 4:The byte code  can run on any os
 step 5:so java is called platform independent.
 --------------------------------------------------------------------------------------------------
-
+step 1:-set path=C:\Program Files\Java\jdk1.7.0_45\bin;.;
+step 2:- to compile the java prg---->javac Filename.java
+step 3:-java Filename
+------------------------------------------------------------------------------------------
 
 
 
