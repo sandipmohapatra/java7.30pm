@@ -518,10 +518,63 @@ step 3:JVM(java virtual machine) convert the java program to byte code with .cla
 step 4:The byte code  can run on any os
 step 5:so java is called platform independent.
 --------------------------------------------------------------------------------------------------
+googl crome ----download jdk1.8 download----install
+open command prompt
 step 1:-set path=C:\Program Files\Java\jdk1.7.0_45\bin;.;
-step 2:- to compile the java prg---->javac Filename.java
-step 3:-java Filename
+step 2:write the program
+step 3:- to compile the java prg---->javac Filename.java
+step 4:-java Filename
 ------------------------------------------------------------------------------------------
+wap to create a product class (prodid,pname,pprice);
+---------------------------------------------------------------------------------------
+example-1
+-------------------
+package org.sandip;
+import java.util.*;
+public class Product 
+{
+int prodid;
+String pname;
+float pprice;
+void input()
+{
+	Scanner ob=new Scanner(System.in);
+	System.out.println("Enter productid,pname,pprice");
+	prodid=ob.nextInt();
+	pname=ob.next();
+	pprice=ob.nextFloat();
+}
+void display()
+{
+	System.out.println("the product id is "+prodid);
+	System.out.println("the product name is "+pname);
+	System.out.println("the product price is "+pprice);
+}
+public static void main(String[] args) 
+{
+	Product p=new Product();
+	p.input();
+	p.display();
+	System.out.println(p.prodid);
+	System.out.println(p.pname);
+	System.out.println(p.pprice);
+}
+}
+
+------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
